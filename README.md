@@ -1,3 +1,5 @@
+![CRM Marketing Database Model](crm-marketing-model.png)
+
 # CRM Marketing Database Model
 
 This database model was designed as part of ICT engineering studies, combining academic database design principles with hands-on CRM and marketing automation experience. The model reflects real-world marketing analytics needs. The tables are designed to answer questions such as:
