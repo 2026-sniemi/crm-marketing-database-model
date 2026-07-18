@@ -42,6 +42,7 @@ CREATE TABLE "Campaign" (
   "channel" varchar,
   "start_date" date,
   "end_date" date,
+  "has_coupon" bool,
   "budget" decimal
 );
 
@@ -59,6 +60,7 @@ CREATE TABLE "Email_delivery" (
   "campaign_id" int,
   "customer_id" int,
   "segment_id" varchar,
+  "message number" int,
   "delivery_time" datetime,
   "opening_time" datetime,
   "click_time" datetime,
@@ -81,7 +83,8 @@ CREATE TABLE "Conversion" (
   "delivery_id" int,
   "paid_media_delivery_id" int,
   "conversion_type" varchar,
-  "transaction_id" int
+  "transaction_id" int,
+  "coupon_code_used" boolean
 );
 
 CREATE TABLE "Revenue" (
